@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Search</title>
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search..." onfocus="showDropdown()">
+        <div id="categoryDropdown" class="dropdown-content">
+            <a href="#" onclick="scrollToCategory('shoes')">Shoes</a>
+            <a href="#" onclick="scrollToCategory('clothes')">Clothes</a>
+            <a href="#" onclick="scrollToCategory('jewelry')">Jewelry</a>
+            <a href="#" onclick="scrollToCategory('food')">Food</a>
+            <a href="#" onclick="scrollToCategory('sport-wears')">Food</a>
+        </div>
+    </div>
+
+    <div id="shoes" class="category">
+        <h2>Shoes</h2>
+        <div class="product-container">
+            <!-- Add your shoe product images here -->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.sA1OOol-g-ZWP5aSQEYNXwHaE8&pid=Api&P=0&h=220" alt="Shoes 1">
+            <!-- Add more shoe product images as needed -->
+        </div>
+    </div>
+
+    <div id="clothes" class="category">
+        <h2>Clothes</h2>
+        <div class="product-container">
+            <!-- Add your clothes product images here -->
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.md8-itCD2eFOovpSxwo4zgHaLH&pid=Api&P=0&h=220" alt="Clothes 1">
+            
+            <!-- Add more clothes product images as needed -->
+        </div>
+    </div>
+
+    <div id="jewelry" class="category">
+        <h2>Jewelry</h2>
+        <div class="product-container">
+            <!-- Add your jewelry product images here -->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.h1cTBVhWEnka8mv9ExhelgHaIL&pid=Api&P=0&h=220" alt="Jewelry 1">
+            <!-- Add more jewelry product images as needed -->
+        </div>
+    </div>
+
+    <div id="food" class="category">
+        <h2>Food</h2>
+        <div class="product-container">
+            <!-- Add your food product images here -->
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ptSdNqKqLdyGZF0pTtJilgHaE8&pid=Api&P=0&h=220" alt="Food 1">
+            <!-- Add more food product images as needed -->
+        </div>
+    </div>
+
+    <div id="sport-wears" class="category">
+        <h2>sport-wears</h2>
+        <div class="product-container">
+            <!-- Add your food product images here -->
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.URNmu-J2PYHPoQ9S3OcNlgHaHa&pid=Api&P=0&h=220">
+
+            <!-- Add more food product images as needed -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
